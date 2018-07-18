@@ -1,0 +1,368 @@
+{
+    "table_info": [
+        {
+            "ContPoName": "UPS设备全集模板_Cont_Spot", 
+            "MoName": "UPS设备全集模板", 
+            "AlPoName": "UPS设备全集模板_Alarm_Spot", 
+            "ConfPoName": "UPS设备全集模板_Config_Spot", 
+            "StPoName": "UPS设备全集模板_Status_Spot", 
+            "PaPoName": "UPS设备全集模板_Param_Spot", 
+            "Type": "UPS", 
+            "ID": 1.1
+        }, 
+        {
+            "ContPoName": "单进单出塔式UPS设备类模板_Cont_Spot", 
+            "MoName": "单进单出塔式UPS设备类模板", 
+            "AlPoName": "单进单出塔式UPS设备类模板_Alarm_Spot", 
+            "ConfPoName": "单进单出塔式UPS设备类模板_Config_Spot", 
+            "StPoName": "单进单出塔式UPS设备类模板_Status_Spot", 
+            "PaPoName": "单进单出塔式UPS设备类模板_Param_Spot", 
+            "Type": "UPS", 
+            "ID": 1.2
+        }, 
+        {
+            "ContPoName": "三进单出塔式UPS设备类模板_Cont_Spot", 
+            "MoName": "三进单出塔式UPS设备类模板", 
+            "AlPoName": "三进单出塔式UPS设备类模板_Alarm_Spot", 
+            "ConfPoName": "三进单出塔式UPS设备类模板_Config_Spot", 
+            "StPoName": "三进单出塔式UPS设备类模板_Status_Spot", 
+            "PaPoName": "三进单出塔式UPS设备类模板_Param_Spot", 
+            "Type": "UPS", 
+            "ID": 1.3
+        }, 
+        {
+            "ContPoName": "三进三出模块化UPS设备类模板_Cont_Spot", 
+            "MoName": "三进三出模块化UPS设备类模板", 
+            "AlPoName": "三进三出模块化UPS设备类模板_Alarm_Spot", 
+            "ConfPoName": "三进三出模块化UPS设备类模板_Config_Spot", 
+            "StPoName": "三进三出模块化UPS设备类模板_Status_Spot", 
+            "PaPoName": "三进三出模块化UPS设备类模板_Param_Spot", 
+            "Type": "UPS", 
+            "ID": 1.4
+        }, 
+        {
+            "ContPoName": "三进三出塔式UPS设备类模板_Cont_Spot", 
+            "MoName": "三进三出塔式UPS设备类模板", 
+            "AlPoName": "三进三出塔式UPS设备类模板_Alarm_Spot", 
+            "ConfPoName": "三进三出塔式UPS设备类模板_Config_Spot", 
+            "StPoName": "三进三出塔式UPS设备类模板_Status_Spot", 
+            "PaPoName": "三进三出塔式UPS设备类模板_Param_Spot", 
+            "Type": "UPS", 
+            "ID": 1.5
+        }, 
+        {
+            "ContPoName": "柴油发电机组并机设备子类模板_Cont_Spot", 
+            "MoName": "柴油发电机组并机设备子类模板", 
+            "AlPoName": "柴油发电机组并机设备子类模板_Alarm_Spot", 
+            "ConfPoName": "柴油发电机组并机设备子类模板_Config_Spot", 
+            "StPoName": "柴油发电机组并机设备子类模板_Status_Spot", 
+            "PaPoName": "柴油发电机组并机设备子类模板_Param_Spot", 
+            "Type": "FDJ", 
+            "ID": 2.1
+        }, 
+        {
+            "ContPoName": "柴油发电机组设备全集模板_Cont_Spot", 
+            "MoName": "柴油发电机组设备全集模板", 
+            "AlPoName": "柴油发电机组设备全集模板_Alarm_Spot", 
+            "ConfPoName": "柴油发电机组设备全集模板_Config_Spot", 
+            "StPoName": "柴油发电机组设备全集模板_Status_Spot", 
+            "PaPoName": "柴油发电机组设备全集模板_Param_Spot", 
+            "Type": "FDJ", 
+            "ID": 2.2
+        }, 
+        {
+            "ContPoName": "单柴油发电机组设备子类模板_Cont_Spot", 
+            "MoName": "单柴油发电机组设备子类模板", 
+            "AlPoName": "单柴油发电机组设备子类模板_Alarm_Spot", 
+            "ConfPoName": "单柴油发电机组设备子类模板_Config_Spot", 
+            "StPoName": "单柴油发电机组设备子类模板_Status_Spot", 
+            "PaPoName": "单柴油发电机组设备子类模板_Param_Spot", 
+            "Type": "FDJ", 
+            "ID": 2.3
+        }, 
+        {
+            "ContPoName": "电池监控仪设备全集模板_Cont_Spot", 
+            "MoName": "电池监控仪设备全集模板", 
+            "AlPoName": "电池监控仪设备全集模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "电池监控仪设备全集模板_Status_Spot", 
+            "PaPoName": "电池监控仪设备全集模板_Param_Spot", 
+            "Type": "电池监控仪", 
+            "ID": 3.1
+        }, 
+        {
+            "ContPoName": "电源设备全集模板_Cont_Spot", 
+            "MoName": "电源设备全集模板", 
+            "AlPoName": "电源设备全集模板_Alarm_Spot", 
+            "ConfPoName": "电源设备全集模板_Config_Spot", 
+            "StPoName": "电源设备全集模板_Status_Spot", 
+            "PaPoName": "电源设备全集模板_Param_Spot", 
+            "Type": "DY", 
+            "ID": 4.1
+        }, 
+        {
+            "ContPoName": "高压变送器温控仪设备全集模板_Cont_Spot", 
+            "MoName": "高压变送器温控仪设备全集模板", 
+            "AlPoName": "高压变送器温控仪设备全集模板_Alarm_Spot", 
+            "ConfPoName": "高压变送器温控仪设备全集模板_Config_Spot", 
+            "StPoName": "高压变送器温控仪设备全集模板_Status_Spot", 
+            "PaPoName": "高压变送器温控仪设备全集模板_Param_Spot", 
+            "Type": "高压变送器温控仪", 
+            "ID": 5.1
+        }, 
+        {
+            "ContPoName": "机柜设备全集模板_Cont_Spot", 
+            "MoName": "机柜设备全集模板", 
+            "AlPoName": "机柜设备全集模板_Alarm_Spot", 
+            "ConfPoName": "机柜设备全集模板_Config_Spot", 
+            "StPoName": "机柜设备全集模板_Status_Spot", 
+            "PaPoName": "机柜设备全集模板_Param_Spot", 
+            "Type": "机柜", 
+            "ID": 6.1
+        }, 
+        {
+            "ContPoName": "低压单相交流电表设备类模板_Cont_Spot", 
+            "MoName": "低压单相交流电表设备类模板", 
+            "AlPoName": "低压单相交流电表设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "低压单相交流电表设备类模板_Status_Spot", 
+            "PaPoName": "低压单相交流电表设备类模板_Param_Spot", 
+            "Type": "交流电表", 
+            "ID": 7.1
+        }, 
+        {
+            "ContPoName": "低压三相交流电表设备类模板_Cont_Spot", 
+            "MoName": "低压三相交流电表设备类模板", 
+            "AlPoName": "低压三相交流电表设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "低压三相交流电表设备类模板_Status_Spot", 
+            "PaPoName": "低压三相交流电表设备类模板_Param_Spot", 
+            "Type": "交流电表", 
+            "ID": 7.2
+        }, 
+        {
+            "ContPoName": "高压三相交流电表设备类模板_Cont_Spot", 
+            "MoName": "高压三相交流电表设备类模板", 
+            "AlPoName": "高压三相交流电表设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "高压三相交流电表设备类模板_Status_Spot", 
+            "PaPoName": "高压三相交流电表设备类模板_Param_Spot", 
+            "Type": "交流电表", 
+            "ID": 7.3
+        }, 
+        {
+            "ContPoName": "交流电表设备全集模板_Cont_Spot", 
+            "MoName": "交流电表设备全集模板", 
+            "AlPoName": "交流电表设备全集模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "交流电表设备全集模板_Status_Spot", 
+            "PaPoName": "交流电表设备全集模板_Param_Spot", 
+            "Type": "交流电表", 
+            "ID": 7.4
+        }, 
+        {
+            "ContPoName": "风冷型精密空调设备类模板_Cont_Spot", 
+            "MoName": "风冷型精密空调设备类模板", 
+            "AlPoName": "风冷型精密空调设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "风冷型精密空调设备类模板_Status_Spot", 
+            "PaPoName": "风冷型精密空调设备类模板_Param_Spot", 
+            "Type": "KT", 
+            "ID": 8.1
+        }, 
+        {
+            "ContPoName": "精密空调设备全集模板_Cont_Spot", 
+            "MoName": "精密空调设备全集模板", 
+            "AlPoName": "精密空调设备全集模板_Alarm_Spot", 
+            "ConfPoName": "精密空调设备全集模板_Config_Spot", 
+            "StPoName": "精密空调设备全集模板_Status_Spot", 
+            "PaPoName": "精密空调设备全集模板_Param_Spot", 
+            "Type": "KT", 
+            "ID": 8.2
+        }, 
+        {
+            "ContPoName": "冷冻水型精密空调设备类模板_Cont_Spot", 
+            "MoName": "冷冻水型精密空调设备类模板", 
+            "AlPoName": "冷冻水型精密空调设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "冷冻水型精密空调设备类模板_Status_Spot", 
+            "PaPoName": "冷冻水型精密空调设备类模板_Param_Spot", 
+            "Type": "KT", 
+            "ID": 8.3
+        }, 
+        {
+            "ContPoName": "水冷型精密空调设备类模板_Cont_Spot", 
+            "MoName": "水冷型精密空调设备类模板", 
+            "AlPoName": "水冷型精密空调设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "水冷型精密空调设备类模板_Status_Spot", 
+            "PaPoName": "水冷型精密空调设备类模板_Param_Spot", 
+            "Type": "KT", 
+            "ID": 8.4
+        }, 
+        {
+            "ContPoName": "风冷型冷水机组设备类模板_Cont_Spot", 
+            "MoName": "风冷型冷水机组设备类模板", 
+            "AlPoName": "风冷型冷水机组设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "风冷型冷水机组设备类模板_Status_Spot", 
+            "PaPoName": "风冷型冷水机组设备类模板_Param_Spot", 
+            "Type": "LSJZ", 
+            "ID": 9.1
+        }, 
+        {
+            "ContPoName": "冷水机组设备全集模板_Cont_Spot", 
+            "MoName": "冷水机组设备全集模板", 
+            "AlPoName": "冷水机组设备全集模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "冷水机组设备全集模板_Status_Spot", 
+            "PaPoName": "冷水机组设备全集模板_Param_Spot", 
+            "Type": "LSJZ", 
+            "ID": 9.2
+        }, 
+        {
+            "ContPoName": "水冷型冷水机组设备类模板_Cont_Spot", 
+            "MoName": "水冷型冷水机组设备类模板", 
+            "AlPoName": "水冷型冷水机组设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "水冷型冷水机组设备类模板_Status_Spot", 
+            "PaPoName": "水冷型冷水机组设备类模板_Param_Spot", 
+            "Type": "LSJZ", 
+            "ID": 9.3
+        }, 
+        {
+            "ContPoName": "漏水检测仪设备全集模板_Cont_Spot", 
+            "MoName": "漏水检测仪设备全集模板", 
+            "AlPoName": "漏水检测仪设备全集模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "漏水检测仪设备全集模板_Status_Spot", 
+            "PaPoName": "漏水检测仪设备全集模板_Param_Spot", 
+            "Type": "漏水检测", 
+            "ID": 10.1
+        }, 
+        {
+            "ContPoName": "配电柜设备全集模板_Cont_Spot", 
+            "MoName": "配电柜设备全集模板", 
+            "AlPoName": "配电柜设备全集模板_Alarm_Spot", 
+            "ConfPoName": "配电柜设备全集模板_Config_Spot", 
+            "StPoName": "配电柜设备全集模板_Status_Spot", 
+            "PaPoName": "配电柜设备全集模板_Param_Spot", 
+            "Type": "PD", 
+            "ID": 11.1
+        }, 
+        {
+            "ContPoName": "温度巡检仪设备类模板_Cont_Spot", 
+            "MoName": "温度巡检仪设备类模板", 
+            "AlPoName": "温度巡检仪设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "温度巡检仪设备类模板_Status_Spot", 
+            "PaPoName": "温度巡检仪设备类模板_Param_Spot", 
+            "Type": "WSD", 
+            "ID": 12.1
+        }, 
+        {
+            "ContPoName": "温湿度设备类模板_Cont_Spot", 
+            "MoName": "温湿度设备类模板", 
+            "AlPoName": "温湿度设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "温湿度设备类模板_Status_Spot", 
+            "PaPoName": "温湿度设备类模板_Param_Spot", 
+            "Type": "WSD", 
+            "ID": 12.2
+        }, 
+        {
+            "ContPoName": "温湿度设备全集模板_Cont_Spot", 
+            "MoName": "温湿度设备全集模板", 
+            "AlPoName": "温湿度设备全集模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "温湿度设备全集模板_Status_Spot", 
+            "PaPoName": "温湿度设备全集模板_Param_Spot", 
+            "Type": "WSD", 
+            "ID": 12.3
+        }, 
+        {
+            "ContPoName": "系统自监控设备全集模板_Cont_Spot", 
+            "MoName": "系统自监控设备全集模板", 
+            "AlPoName": "系统自监控设备全集模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "系统自监控设备全集模板_Status_Spot", 
+            "PaPoName": "系统自监控设备全集模板_Param_Spot", 
+            "Type": "系统自监控", 
+            "ID": 13.1
+        }, 
+        {
+            "ContPoName": "新风机设备全集模板_Cont_Spot", 
+            "MoName": "新风机设备全集模板", 
+            "AlPoName": "新风机设备全集模板_Alarm_Spot", 
+            "ConfPoName": "新风机设备全集模板_Config_Spot", 
+            "StPoName": "新风机设备全集模板_Status_Spot", 
+            "PaPoName": "新风机设备全集模板_Param_Spot", 
+            "Type": "XFJ", 
+            "ID": 14.1
+        }, 
+        {
+            "ContPoName": "直流电表设备类模板_Cont_Spot", 
+            "MoName": "直流电表设备类模板", 
+            "AlPoName": "直流电表设备类模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "直流电表设备类模板_Status_Spot", 
+            "PaPoName": "直流电表设备类模板_Param_Spot", 
+            "Type": "直流电表", 
+            "ID": 15.1
+        }, 
+        {
+            "ContPoName": "直流电表设备全集模板_Cont_Spot", 
+            "MoName": "直流电表设备全集模板", 
+            "AlPoName": "直流电表设备全集模板_Alarm_Spot", 
+            "ConfPoName": "", 
+            "StPoName": "直流电表设备全集模板_Status_Spot", 
+            "PaPoName": "直流电表设备全集模板_Param_Spot", 
+            "Type": "直流电表", 
+            "ID": 15.2
+        }
+    ], 
+    "table_header": [
+        "Type", 
+        "MoName", 
+        "ID", 
+        "PaPoName", 
+        "StPoName", 
+        "ContPoName", 
+        "AlPoName", 
+        "ConfPoName"
+    ], 
+    "model_info": [
+        "UPS设备全集模板", 
+        "单进单出塔式UPS设备类模板", 
+        "三进单出塔式UPS设备类模板", 
+        "三进三出模块化UPS设备类模板", 
+        "三进三出塔式UPS设备类模板", 
+        "柴油发电机组并机设备子类模板", 
+        "柴油发电机组设备全集模板", 
+        "单柴油发电机组设备子类模板", 
+        "电池监控仪设备全集模板", 
+        "电源设备全集模板", 
+        "高压变送器温控仪设备全集模板", 
+        "机柜设备全集模板", 
+        "低压单相交流电表设备类模板", 
+        "低压三相交流电表设备类模板", 
+        "高压三相交流电表设备类模板", 
+        "交流电表设备全集模板", 
+        "风冷型精密空调设备类模板", 
+        "精密空调设备全集模板", 
+        "冷冻水型精密空调设备类模板", 
+        "水冷型精密空调设备类模板", 
+        "风冷型冷水机组设备类模板", 
+        "冷水机组设备全集模板", 
+        "水冷型冷水机组设备类模板", 
+        "漏水检测仪设备全集模板", 
+        "配电柜设备全集模板", 
+        "温度巡检仪设备类模板", 
+        "温湿度设备类模板", 
+        "温湿度设备全集模板", 
+        "系统自监控设备全集模板", 
+        "新风机设备全集模板", 
+        "直流电表设备类模板", 
+        "直流电表设备全集模板"
+    ]
+}

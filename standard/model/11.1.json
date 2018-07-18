@@ -1,0 +1,4446 @@
+{
+    "table_head": [
+        {
+            "value": "标准ID", 
+            "key": "id"
+        }, 
+        {
+            "value": "测点名称", 
+            "key": "spotName"
+        }, 
+        {
+            "value": "单位", 
+            "key": "unit"
+        }, 
+        {
+            "value": "状态描述", 
+            "key": "mapper"
+        }, 
+        {
+            "value": "精度", 
+            "key": "precision"
+        }, 
+        {
+            "value": "分组", 
+            "key": "groups"
+        }
+    ], 
+    "table_info": [
+        {
+            "spotName": "输入线电压Uab", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "输入线电压Ubc", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "输入线电压Uac", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.3.x"
+        }, 
+        {
+            "spotName": "输入相电压Ua", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.4.x"
+        }, 
+        {
+            "spotName": "输入相电压Ub", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.5.x"
+        }, 
+        {
+            "spotName": "输入相电压Uc", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.6.x"
+        }, 
+        {
+            "spotName": "输入零地电压", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.7.x"
+        }, 
+        {
+            "spotName": "输入电压不平衡度", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.8.x"
+        }, 
+        {
+            "spotName": "输入相电流Ia", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.10.x"
+        }, 
+        {
+            "spotName": "输入相电流Ib", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.11.x"
+        }, 
+        {
+            "spotName": "输入相电流Ic", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.12.x"
+        }, 
+        {
+            "spotName": "输入零序电流In", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.13.x"
+        }, 
+        {
+            "spotName": "输入电流不平衡度", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.14.x"
+        }, 
+        {
+            "spotName": "输入负载率a", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.15.x"
+        }, 
+        {
+            "spotName": "输入负载率b", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.16.x"
+        }, 
+        {
+            "spotName": "输入负载率c", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.17.x"
+        }, 
+        {
+            "spotName": "输入频率", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "F", 
+            "id": "1.20.x"
+        }, 
+        {
+            "spotName": "输入总有功功率P", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.21.x"
+        }, 
+        {
+            "spotName": "输入有功功率Pa", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.22.x"
+        }, 
+        {
+            "spotName": "输入有功功率Pb", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.23.x"
+        }, 
+        {
+            "spotName": "输入有功功率Pc", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.24.x"
+        }, 
+        {
+            "spotName": "输入总无功功率Q", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.25.x"
+        }, 
+        {
+            "spotName": "输入无功功率Qa", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.26.x"
+        }, 
+        {
+            "spotName": "输入无功功率Qb", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.27.x"
+        }, 
+        {
+            "spotName": "输入无功功率Qc", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.28.x"
+        }, 
+        {
+            "spotName": "输入总视在功率S", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.29.x"
+        }, 
+        {
+            "spotName": "输入视在功率Sa", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.30.x"
+        }, 
+        {
+            "spotName": "输入视在功率Sb", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.31.x"
+        }, 
+        {
+            "spotName": "输入视在功率Sc", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.32.x"
+        }, 
+        {
+            "spotName": "输入总功率因素PF", 
+            "precision": "0.01", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.33.x"
+        }, 
+        {
+            "spotName": "输入功率因素PFa", 
+            "precision": "0.01", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.34.x"
+        }, 
+        {
+            "spotName": "输入功率因素PFb", 
+            "precision": "0.01", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.35.x"
+        }, 
+        {
+            "spotName": "输入功率因素PFc", 
+            "precision": "0.01", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.36.x"
+        }, 
+        {
+            "spotName": "输入正向有功电能", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kWh", 
+            "id": "1.37.x"
+        }, 
+        {
+            "spotName": "输入正向无功电能", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "kVarh", 
+            "id": "1.38.x"
+        }, 
+        {
+            "spotName": "输入A相电压总谐波THD", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.40.x"
+        }, 
+        {
+            "spotName": "输入B相电压总谐波THD", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.41.x"
+        }, 
+        {
+            "spotName": "输入C相电压总谐波THD", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.42.x"
+        }, 
+        {
+            "spotName": "输入A相电流总谐波THD", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.43.x"
+        }, 
+        {
+            "spotName": "输入B相电流总谐波THD", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.44.x"
+        }, 
+        {
+            "spotName": "输入C相电流总谐波THD", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.45.x"
+        }, 
+        {
+            "spotName": "输入A相0次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.46.x"
+        }, 
+        {
+            "spotName": "输入A相1次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.47.x"
+        }, 
+        {
+            "spotName": "输入A相2次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.48.x"
+        }, 
+        {
+            "spotName": "输入A相3次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.49.x"
+        }, 
+        {
+            "spotName": "输入A相4次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.50.x"
+        }, 
+        {
+            "spotName": "输入A相5次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.51.x"
+        }, 
+        {
+            "spotName": "输入A相6次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.52.x"
+        }, 
+        {
+            "spotName": "输入A相7次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.53.x"
+        }, 
+        {
+            "spotName": "输入A相8次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.54.x"
+        }, 
+        {
+            "spotName": "输入A相9次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.55.x"
+        }, 
+        {
+            "spotName": "输入A相10次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.56.x"
+        }, 
+        {
+            "spotName": "输入A相11次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.57.x"
+        }, 
+        {
+            "spotName": "输入A相12次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.58.x"
+        }, 
+        {
+            "spotName": "输入A相13次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.59.x"
+        }, 
+        {
+            "spotName": "输入A相14次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.60.x"
+        }, 
+        {
+            "spotName": "输入A相15次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.61.x"
+        }, 
+        {
+            "spotName": "输入A相16次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.62.x"
+        }, 
+        {
+            "spotName": "输入A相17次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.63.x"
+        }, 
+        {
+            "spotName": "输入A相18次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.64.x"
+        }, 
+        {
+            "spotName": "输入A相19次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.65.x"
+        }, 
+        {
+            "spotName": "输入A相20次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.66.x"
+        }, 
+        {
+            "spotName": "输入A相21次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.67.x"
+        }, 
+        {
+            "spotName": "输入A相22次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.68.x"
+        }, 
+        {
+            "spotName": "输入A相23次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.69.x"
+        }, 
+        {
+            "spotName": "输入A相24次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.70.x"
+        }, 
+        {
+            "spotName": "输入A相25次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.71.x"
+        }, 
+        {
+            "spotName": "输入A相26次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.72.x"
+        }, 
+        {
+            "spotName": "输入A相27次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.73.x"
+        }, 
+        {
+            "spotName": "输入A相28次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.74.x"
+        }, 
+        {
+            "spotName": "输入A相29次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.75.x"
+        }, 
+        {
+            "spotName": "输入A相30次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.76.x"
+        }, 
+        {
+            "spotName": "输入A相31次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.77.x"
+        }, 
+        {
+            "spotName": "输入A相32次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.78.x"
+        }, 
+        {
+            "spotName": "输入A相33次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.79.x"
+        }, 
+        {
+            "spotName": "输入A相34次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.80.x"
+        }, 
+        {
+            "spotName": "输入A相35次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.81.x"
+        }, 
+        {
+            "spotName": "输入A相36次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.82.x"
+        }, 
+        {
+            "spotName": "输入A相37次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.83.x"
+        }, 
+        {
+            "spotName": "输入A相38次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.84.x"
+        }, 
+        {
+            "spotName": "输入A相39次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.85.x"
+        }, 
+        {
+            "spotName": "输入A相40次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.86.x"
+        }, 
+        {
+            "spotName": "输入A相41次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.87.x"
+        }, 
+        {
+            "spotName": "输入A相42次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.88.x"
+        }, 
+        {
+            "spotName": "输入A相43次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.89.x"
+        }, 
+        {
+            "spotName": "输入A相44次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.90.x"
+        }, 
+        {
+            "spotName": "输入A相45次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.91.x"
+        }, 
+        {
+            "spotName": "输入A相46次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.92.x"
+        }, 
+        {
+            "spotName": "输入A相47次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.93.x"
+        }, 
+        {
+            "spotName": "输入A相48次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.94.x"
+        }, 
+        {
+            "spotName": "输入A相49次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.95.x"
+        }, 
+        {
+            "spotName": "输入A相50次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.96.x"
+        }, 
+        {
+            "spotName": "输入A相51次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.97.x"
+        }, 
+        {
+            "spotName": "输入A相52次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.98.x"
+        }, 
+        {
+            "spotName": "输入A相53次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.99.x"
+        }, 
+        {
+            "spotName": "输入A相54次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.100.x"
+        }, 
+        {
+            "spotName": "输入A相55次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.101.x"
+        }, 
+        {
+            "spotName": "输入A相56次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.102.x"
+        }, 
+        {
+            "spotName": "输入A相57次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.103.x"
+        }, 
+        {
+            "spotName": "输入A相58次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.104.x"
+        }, 
+        {
+            "spotName": "输入A相59次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.105.x"
+        }, 
+        {
+            "spotName": "输入A相60次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.106.x"
+        }, 
+        {
+            "spotName": "输入A相61次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.107.x"
+        }, 
+        {
+            "spotName": "输入A相62次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.108.x"
+        }, 
+        {
+            "spotName": "输入A相63次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.109.x"
+        }, 
+        {
+            "spotName": "输入B相0次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.110.x"
+        }, 
+        {
+            "spotName": "输入B相1次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.111.x"
+        }, 
+        {
+            "spotName": "输入B相2次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.112.x"
+        }, 
+        {
+            "spotName": "输入B相3次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.113.x"
+        }, 
+        {
+            "spotName": "输入B相4次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.114.x"
+        }, 
+        {
+            "spotName": "输入B相5次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.115.x"
+        }, 
+        {
+            "spotName": "输入B相6次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.116.x"
+        }, 
+        {
+            "spotName": "输入B相7次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.117.x"
+        }, 
+        {
+            "spotName": "输入B相8次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.118.x"
+        }, 
+        {
+            "spotName": "输入B相9次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.119.x"
+        }, 
+        {
+            "spotName": "输入B相10次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.120.x"
+        }, 
+        {
+            "spotName": "输入B相11次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.121.x"
+        }, 
+        {
+            "spotName": "输入B相12次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.122.x"
+        }, 
+        {
+            "spotName": "输入B相13次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.123.x"
+        }, 
+        {
+            "spotName": "输入B相14次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.124.x"
+        }, 
+        {
+            "spotName": "输入B相15次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.125.x"
+        }, 
+        {
+            "spotName": "输入B相16次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.126.x"
+        }, 
+        {
+            "spotName": "输入B相17次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.127.x"
+        }, 
+        {
+            "spotName": "输入B相18次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.128.x"
+        }, 
+        {
+            "spotName": "输入B相19次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.129.x"
+        }, 
+        {
+            "spotName": "输入B相20次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.130.x"
+        }, 
+        {
+            "spotName": "输入B相21次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.131.x"
+        }, 
+        {
+            "spotName": "输入B相22次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.132.x"
+        }, 
+        {
+            "spotName": "输入B相23次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.133.x"
+        }, 
+        {
+            "spotName": "输入B相24次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.134.x"
+        }, 
+        {
+            "spotName": "输入B相25次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.135.x"
+        }, 
+        {
+            "spotName": "输入B相26次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.136.x"
+        }, 
+        {
+            "spotName": "输入B相27次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.137.x"
+        }, 
+        {
+            "spotName": "输入B相28次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.138.x"
+        }, 
+        {
+            "spotName": "输入B相29次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.139.x"
+        }, 
+        {
+            "spotName": "输入B相30次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.140.x"
+        }, 
+        {
+            "spotName": "输入B相31次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.141.x"
+        }, 
+        {
+            "spotName": "输入B相32次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.142.x"
+        }, 
+        {
+            "spotName": "输入B相33次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.143.x"
+        }, 
+        {
+            "spotName": "输入B相34次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.144.x"
+        }, 
+        {
+            "spotName": "输入B相35次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.145.x"
+        }, 
+        {
+            "spotName": "输入B相36次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.146.x"
+        }, 
+        {
+            "spotName": "输入B相37次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.147.x"
+        }, 
+        {
+            "spotName": "输入B相38次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.148.x"
+        }, 
+        {
+            "spotName": "输入B相39次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.149.x"
+        }, 
+        {
+            "spotName": "输入B相40次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.150.x"
+        }, 
+        {
+            "spotName": "输入B相41次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.151.x"
+        }, 
+        {
+            "spotName": "输入B相42次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.152.x"
+        }, 
+        {
+            "spotName": "输入B相43次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.153.x"
+        }, 
+        {
+            "spotName": "输入B相44次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.154.x"
+        }, 
+        {
+            "spotName": "输入B相45次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.155.x"
+        }, 
+        {
+            "spotName": "输入B相46次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.156.x"
+        }, 
+        {
+            "spotName": "输入B相47次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.157.x"
+        }, 
+        {
+            "spotName": "输入B相48次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.158.x"
+        }, 
+        {
+            "spotName": "输入B相49次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.159.x"
+        }, 
+        {
+            "spotName": "输入B相50次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.160.x"
+        }, 
+        {
+            "spotName": "输入B相51次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.161.x"
+        }, 
+        {
+            "spotName": "输入B相52次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.162.x"
+        }, 
+        {
+            "spotName": "输入B相53次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.163.x"
+        }, 
+        {
+            "spotName": "输入B相54次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.164.x"
+        }, 
+        {
+            "spotName": "输入B相55次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.165.x"
+        }, 
+        {
+            "spotName": "输入B相56次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.166.x"
+        }, 
+        {
+            "spotName": "输入B相57次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.167.x"
+        }, 
+        {
+            "spotName": "输入B相58次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.168.x"
+        }, 
+        {
+            "spotName": "输入B相59次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.169.x"
+        }, 
+        {
+            "spotName": "输入B相60次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.170.x"
+        }, 
+        {
+            "spotName": "输入B相61次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.171.x"
+        }, 
+        {
+            "spotName": "输入B相62次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.172.x"
+        }, 
+        {
+            "spotName": "输入B相63次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.173.x"
+        }, 
+        {
+            "spotName": "输入C相0次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.174.x"
+        }, 
+        {
+            "spotName": "输入C相1次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.175.x"
+        }, 
+        {
+            "spotName": "输入C相2次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.176.x"
+        }, 
+        {
+            "spotName": "输入C相3次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.177.x"
+        }, 
+        {
+            "spotName": "输入C相4次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.178.x"
+        }, 
+        {
+            "spotName": "输入C相5次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.179.x"
+        }, 
+        {
+            "spotName": "输入C相6次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.180.x"
+        }, 
+        {
+            "spotName": "输入C相7次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.181.x"
+        }, 
+        {
+            "spotName": "输入C相8次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.182.x"
+        }, 
+        {
+            "spotName": "输入C相9次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.183.x"
+        }, 
+        {
+            "spotName": "输入C相10次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.184.x"
+        }, 
+        {
+            "spotName": "输入C相11次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.185.x"
+        }, 
+        {
+            "spotName": "输入C相12次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.186.x"
+        }, 
+        {
+            "spotName": "输入C相13次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.187.x"
+        }, 
+        {
+            "spotName": "输入C相14次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.188.x"
+        }, 
+        {
+            "spotName": "输入C相15次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.189.x"
+        }, 
+        {
+            "spotName": "输入C相16次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.190.x"
+        }, 
+        {
+            "spotName": "输入C相17次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.191.x"
+        }, 
+        {
+            "spotName": "输入C相18次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.192.x"
+        }, 
+        {
+            "spotName": "输入C相19次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.193.x"
+        }, 
+        {
+            "spotName": "输入C相20次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.194.x"
+        }, 
+        {
+            "spotName": "输入C相21次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.195.x"
+        }, 
+        {
+            "spotName": "输入C相22次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.196.x"
+        }, 
+        {
+            "spotName": "输入C相23次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.197.x"
+        }, 
+        {
+            "spotName": "输入C相24次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.198.x"
+        }, 
+        {
+            "spotName": "输入C相25次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.199.x"
+        }, 
+        {
+            "spotName": "输入C相26次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.200.x"
+        }, 
+        {
+            "spotName": "输入C相27次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.201.x"
+        }, 
+        {
+            "spotName": "输入C相28次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.202.x"
+        }, 
+        {
+            "spotName": "输入C相29次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.203.x"
+        }, 
+        {
+            "spotName": "输入C相30次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.204.x"
+        }, 
+        {
+            "spotName": "输入C相31次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.205.x"
+        }, 
+        {
+            "spotName": "输入C相32次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.206.x"
+        }, 
+        {
+            "spotName": "输入C相33次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.207.x"
+        }, 
+        {
+            "spotName": "输入C相34次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.208.x"
+        }, 
+        {
+            "spotName": "输入C相35次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.209.x"
+        }, 
+        {
+            "spotName": "输入C相36次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.210.x"
+        }, 
+        {
+            "spotName": "输入C相37次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.211.x"
+        }, 
+        {
+            "spotName": "输入C相38次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.212.x"
+        }, 
+        {
+            "spotName": "输入C相39次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.213.x"
+        }, 
+        {
+            "spotName": "输入C相40次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.214.x"
+        }, 
+        {
+            "spotName": "输入C相41次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.215.x"
+        }, 
+        {
+            "spotName": "输入C相42次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.216.x"
+        }, 
+        {
+            "spotName": "输入C相43次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.217.x"
+        }, 
+        {
+            "spotName": "输入C相44次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.218.x"
+        }, 
+        {
+            "spotName": "输入C相45次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.219.x"
+        }, 
+        {
+            "spotName": "输入C相46次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.220.x"
+        }, 
+        {
+            "spotName": "输入C相47次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.221.x"
+        }, 
+        {
+            "spotName": "输入C相48次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.222.x"
+        }, 
+        {
+            "spotName": "输入C相49次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.223.x"
+        }, 
+        {
+            "spotName": "输入C相50次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.224.x"
+        }, 
+        {
+            "spotName": "输入C相51次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.225.x"
+        }, 
+        {
+            "spotName": "输入C相52次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.226.x"
+        }, 
+        {
+            "spotName": "输入C相53次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.227.x"
+        }, 
+        {
+            "spotName": "输入C相54次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.228.x"
+        }, 
+        {
+            "spotName": "输入C相55次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.229.x"
+        }, 
+        {
+            "spotName": "输入C相56次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.230.x"
+        }, 
+        {
+            "spotName": "输入C相57次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.231.x"
+        }, 
+        {
+            "spotName": "输入C相58次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.232.x"
+        }, 
+        {
+            "spotName": "输入C相59次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.233.x"
+        }, 
+        {
+            "spotName": "输入C相60次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.234.x"
+        }, 
+        {
+            "spotName": "输入C相61次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.235.x"
+        }, 
+        {
+            "spotName": "输入C相62次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.236.x"
+        }, 
+        {
+            "spotName": "输入C相63次电压谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.237.x"
+        }, 
+        {
+            "spotName": "输入A相0次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.238.x"
+        }, 
+        {
+            "spotName": "输入A相1次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.239.x"
+        }, 
+        {
+            "spotName": "输入A相2次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.240.x"
+        }, 
+        {
+            "spotName": "输入A相3次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.241.x"
+        }, 
+        {
+            "spotName": "输入A相4次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.242.x"
+        }, 
+        {
+            "spotName": "输入A相5次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.243.x"
+        }, 
+        {
+            "spotName": "输入A相6次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.244.x"
+        }, 
+        {
+            "spotName": "输入A相7次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.245.x"
+        }, 
+        {
+            "spotName": "输入A相8次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.246.x"
+        }, 
+        {
+            "spotName": "输入A相9次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.247.x"
+        }, 
+        {
+            "spotName": "输入A相10次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.248.x"
+        }, 
+        {
+            "spotName": "输入A相11次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.249.x"
+        }, 
+        {
+            "spotName": "输入A相12次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.250.x"
+        }, 
+        {
+            "spotName": "输入A相13次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.251.x"
+        }, 
+        {
+            "spotName": "输入A相14次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.252.x"
+        }, 
+        {
+            "spotName": "输入A相15次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.253.x"
+        }, 
+        {
+            "spotName": "输入A相16次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.254.x"
+        }, 
+        {
+            "spotName": "输入A相17次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.255.x"
+        }, 
+        {
+            "spotName": "输入A相18次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.256.x"
+        }, 
+        {
+            "spotName": "输入A相19次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.257.x"
+        }, 
+        {
+            "spotName": "输入A相20次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.258.x"
+        }, 
+        {
+            "spotName": "输入A相21次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.259.x"
+        }, 
+        {
+            "spotName": "输入A相22次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.260.x"
+        }, 
+        {
+            "spotName": "输入A相23次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.261.x"
+        }, 
+        {
+            "spotName": "输入A相24次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.262.x"
+        }, 
+        {
+            "spotName": "输入A相25次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.263.x"
+        }, 
+        {
+            "spotName": "输入A相26次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.264.x"
+        }, 
+        {
+            "spotName": "输入A相27次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.265.x"
+        }, 
+        {
+            "spotName": "输入A相28次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.266.x"
+        }, 
+        {
+            "spotName": "输入A相29次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.267.x"
+        }, 
+        {
+            "spotName": "输入A相30次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.268.x"
+        }, 
+        {
+            "spotName": "输入A相31次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.269.x"
+        }, 
+        {
+            "spotName": "输入A相32次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.270.x"
+        }, 
+        {
+            "spotName": "输入A相33次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.271.x"
+        }, 
+        {
+            "spotName": "输入A相34次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.272.x"
+        }, 
+        {
+            "spotName": "输入A相35次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.273.x"
+        }, 
+        {
+            "spotName": "输入A相36次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.274.x"
+        }, 
+        {
+            "spotName": "输入A相37次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.275.x"
+        }, 
+        {
+            "spotName": "输入A相38次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.276.x"
+        }, 
+        {
+            "spotName": "输入A相39次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.277.x"
+        }, 
+        {
+            "spotName": "输入A相40次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.278.x"
+        }, 
+        {
+            "spotName": "输入A相41次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.279.x"
+        }, 
+        {
+            "spotName": "输入A相42次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.280.x"
+        }, 
+        {
+            "spotName": "输入A相43次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.281.x"
+        }, 
+        {
+            "spotName": "输入A相44次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.282.x"
+        }, 
+        {
+            "spotName": "输入A相45次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.283.x"
+        }, 
+        {
+            "spotName": "输入A相46次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.284.x"
+        }, 
+        {
+            "spotName": "输入A相47次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.285.x"
+        }, 
+        {
+            "spotName": "输入A相48次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.286.x"
+        }, 
+        {
+            "spotName": "输入A相49次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.287.x"
+        }, 
+        {
+            "spotName": "输入A相50次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.288.x"
+        }, 
+        {
+            "spotName": "输入A相51次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.289.x"
+        }, 
+        {
+            "spotName": "输入A相52次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.290.x"
+        }, 
+        {
+            "spotName": "输入A相53次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.291.x"
+        }, 
+        {
+            "spotName": "输入A相54次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.292.x"
+        }, 
+        {
+            "spotName": "输入A相55次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.293.x"
+        }, 
+        {
+            "spotName": "输入A相56次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.294.x"
+        }, 
+        {
+            "spotName": "输入A相57次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.295.x"
+        }, 
+        {
+            "spotName": "输入A相58次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.296.x"
+        }, 
+        {
+            "spotName": "输入A相59次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.297.x"
+        }, 
+        {
+            "spotName": "输入A相60次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.298.x"
+        }, 
+        {
+            "spotName": "输入A相61次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.299.x"
+        }, 
+        {
+            "spotName": "输入A相62次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.300.x"
+        }, 
+        {
+            "spotName": "输入A相63次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.301.x"
+        }, 
+        {
+            "spotName": "输入B相0次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.302.x"
+        }, 
+        {
+            "spotName": "输入B相1次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.303.x"
+        }, 
+        {
+            "spotName": "输入B相2次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.304.x"
+        }, 
+        {
+            "spotName": "输入B相3次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.305.x"
+        }, 
+        {
+            "spotName": "输入B相4次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.306.x"
+        }, 
+        {
+            "spotName": "输入B相5次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.307.x"
+        }, 
+        {
+            "spotName": "输入B相6次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.308.x"
+        }, 
+        {
+            "spotName": "输入B相7次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.309.x"
+        }, 
+        {
+            "spotName": "输入B相8次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.310.x"
+        }, 
+        {
+            "spotName": "输入B相9次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.311.x"
+        }, 
+        {
+            "spotName": "输入B相10次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.312.x"
+        }, 
+        {
+            "spotName": "输入B相11次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.313.x"
+        }, 
+        {
+            "spotName": "输入B相12次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.314.x"
+        }, 
+        {
+            "spotName": "输入B相13次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.315.x"
+        }, 
+        {
+            "spotName": "输入B相14次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.316.x"
+        }, 
+        {
+            "spotName": "输入B相15次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.317.x"
+        }, 
+        {
+            "spotName": "输入B相16次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.318.x"
+        }, 
+        {
+            "spotName": "输入B相17次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.319.x"
+        }, 
+        {
+            "spotName": "输入B相18次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.320.x"
+        }, 
+        {
+            "spotName": "输入B相19次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.321.x"
+        }, 
+        {
+            "spotName": "输入B相20次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.322.x"
+        }, 
+        {
+            "spotName": "输入B相21次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.323.x"
+        }, 
+        {
+            "spotName": "输入B相22次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.324.x"
+        }, 
+        {
+            "spotName": "输入B相23次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.325.x"
+        }, 
+        {
+            "spotName": "输入B相24次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.326.x"
+        }, 
+        {
+            "spotName": "输入B相25次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.327.x"
+        }, 
+        {
+            "spotName": "输入B相26次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.328.x"
+        }, 
+        {
+            "spotName": "输入B相27次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.329.x"
+        }, 
+        {
+            "spotName": "输入B相28次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.330.x"
+        }, 
+        {
+            "spotName": "输入B相29次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.331.x"
+        }, 
+        {
+            "spotName": "输入B相30次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.332.x"
+        }, 
+        {
+            "spotName": "输入B相31次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.333.x"
+        }, 
+        {
+            "spotName": "输入B相32次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.334.x"
+        }, 
+        {
+            "spotName": "输入B相33次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.335.x"
+        }, 
+        {
+            "spotName": "输入B相34次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.336.x"
+        }, 
+        {
+            "spotName": "输入B相35次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.337.x"
+        }, 
+        {
+            "spotName": "输入B相36次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.338.x"
+        }, 
+        {
+            "spotName": "输入B相37次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.339.x"
+        }, 
+        {
+            "spotName": "输入B相38次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.340.x"
+        }, 
+        {
+            "spotName": "输入B相39次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.341.x"
+        }, 
+        {
+            "spotName": "输入B相40次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.342.x"
+        }, 
+        {
+            "spotName": "输入B相41次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.343.x"
+        }, 
+        {
+            "spotName": "输入B相42次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.344.x"
+        }, 
+        {
+            "spotName": "输入B相43次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.345.x"
+        }, 
+        {
+            "spotName": "输入B相44次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.346.x"
+        }, 
+        {
+            "spotName": "输入B相45次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.347.x"
+        }, 
+        {
+            "spotName": "输入B相46次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.348.x"
+        }, 
+        {
+            "spotName": "输入B相47次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.349.x"
+        }, 
+        {
+            "spotName": "输入B相48次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.350.x"
+        }, 
+        {
+            "spotName": "输入B相49次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.351.x"
+        }, 
+        {
+            "spotName": "输入B相50次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.352.x"
+        }, 
+        {
+            "spotName": "输入B相51次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.353.x"
+        }, 
+        {
+            "spotName": "输入B相52次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.354.x"
+        }, 
+        {
+            "spotName": "输入B相53次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.355.x"
+        }, 
+        {
+            "spotName": "输入B相54次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.356.x"
+        }, 
+        {
+            "spotName": "输入B相55次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.357.x"
+        }, 
+        {
+            "spotName": "输入B相56次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.358.x"
+        }, 
+        {
+            "spotName": "输入B相57次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.359.x"
+        }, 
+        {
+            "spotName": "输入B相58次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.360.x"
+        }, 
+        {
+            "spotName": "输入B相59次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.361.x"
+        }, 
+        {
+            "spotName": "输入B相60次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.362.x"
+        }, 
+        {
+            "spotName": "输入B相61次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.363.x"
+        }, 
+        {
+            "spotName": "输入B相62次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.364.x"
+        }, 
+        {
+            "spotName": "输入B相63次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.365.x"
+        }, 
+        {
+            "spotName": "输入C相0次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.366.x"
+        }, 
+        {
+            "spotName": "输入C相1次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.367.x"
+        }, 
+        {
+            "spotName": "输入C相2次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.368.x"
+        }, 
+        {
+            "spotName": "输入C相3次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.369.x"
+        }, 
+        {
+            "spotName": "输入C相4次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.370.x"
+        }, 
+        {
+            "spotName": "输入C相5次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.371.x"
+        }, 
+        {
+            "spotName": "输入C相6次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.372.x"
+        }, 
+        {
+            "spotName": "输入C相7次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.373.x"
+        }, 
+        {
+            "spotName": "输入C相8次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.374.x"
+        }, 
+        {
+            "spotName": "输入C相9次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.375.x"
+        }, 
+        {
+            "spotName": "输入C相10次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.376.x"
+        }, 
+        {
+            "spotName": "输入C相11次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.377.x"
+        }, 
+        {
+            "spotName": "输入C相12次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.378.x"
+        }, 
+        {
+            "spotName": "输入C相13次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.379.x"
+        }, 
+        {
+            "spotName": "输入C相14次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.380.x"
+        }, 
+        {
+            "spotName": "输入C相15次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.381.x"
+        }, 
+        {
+            "spotName": "输入C相16次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.382.x"
+        }, 
+        {
+            "spotName": "输入C相17次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.383.x"
+        }, 
+        {
+            "spotName": "输入C相18次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.384.x"
+        }, 
+        {
+            "spotName": "输入C相19次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.385.x"
+        }, 
+        {
+            "spotName": "输入C相20次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.386.x"
+        }, 
+        {
+            "spotName": "输入C相21次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.387.x"
+        }, 
+        {
+            "spotName": "输入C相22次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.388.x"
+        }, 
+        {
+            "spotName": "输入C相23次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.389.x"
+        }, 
+        {
+            "spotName": "输入C相24次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.390.x"
+        }, 
+        {
+            "spotName": "输入C相25次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.391.x"
+        }, 
+        {
+            "spotName": "输入C相26次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.392.x"
+        }, 
+        {
+            "spotName": "输入C相27次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.393.x"
+        }, 
+        {
+            "spotName": "输入C相28次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.394.x"
+        }, 
+        {
+            "spotName": "输入C相29次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.395.x"
+        }, 
+        {
+            "spotName": "输入C相30次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.396.x"
+        }, 
+        {
+            "spotName": "输入C相31次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.397.x"
+        }, 
+        {
+            "spotName": "输入C相32次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.398.x"
+        }, 
+        {
+            "spotName": "输入C相33次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.399.x"
+        }, 
+        {
+            "spotName": "输入C相34次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.400.x"
+        }, 
+        {
+            "spotName": "输入C相35次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.401.x"
+        }, 
+        {
+            "spotName": "输入C相36次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.402.x"
+        }, 
+        {
+            "spotName": "输入C相37次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.403.x"
+        }, 
+        {
+            "spotName": "输入C相38次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.404.x"
+        }, 
+        {
+            "spotName": "输入C相39次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.405.x"
+        }, 
+        {
+            "spotName": "输入C相40次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.406.x"
+        }, 
+        {
+            "spotName": "输入C相41次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.407.x"
+        }, 
+        {
+            "spotName": "输入C相42次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.408.x"
+        }, 
+        {
+            "spotName": "输入C相43次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.409.x"
+        }, 
+        {
+            "spotName": "输入C相44次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.410.x"
+        }, 
+        {
+            "spotName": "输入C相45次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.411.x"
+        }, 
+        {
+            "spotName": "输入C相46次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.412.x"
+        }, 
+        {
+            "spotName": "输入C相47次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.413.x"
+        }, 
+        {
+            "spotName": "输入C相48次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.414.x"
+        }, 
+        {
+            "spotName": "输入C相49次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.415.x"
+        }, 
+        {
+            "spotName": "输入C相50次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.416.x"
+        }, 
+        {
+            "spotName": "输入C相51次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.417.x"
+        }, 
+        {
+            "spotName": "输入C相52次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.418.x"
+        }, 
+        {
+            "spotName": "输入C相53次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.419.x"
+        }, 
+        {
+            "spotName": "输入C相54次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.420.x"
+        }, 
+        {
+            "spotName": "输入C相55次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.421.x"
+        }, 
+        {
+            "spotName": "输入C相56次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.422.x"
+        }, 
+        {
+            "spotName": "输入C相57次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.423.x"
+        }, 
+        {
+            "spotName": "输入C相58次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.424.x"
+        }, 
+        {
+            "spotName": "输入C相59次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.425.x"
+        }, 
+        {
+            "spotName": "输入C相60次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.426.x"
+        }, 
+        {
+            "spotName": "输入C相61次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.427.x"
+        }, 
+        {
+            "spotName": "输入C相62次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.428.x"
+        }, 
+        {
+            "spotName": "输入C相63次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.429.x"
+        }, 
+        {
+            "spotName": "输入温度", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "℃", 
+            "id": "1.430.x"
+        }, 
+        {
+            "spotName": "输入湿度", 
+            "precision": "0.1", 
+            "groups": "输入x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.431.x"
+        }, 
+        {
+            "spotName": "输出分路相电流", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.440.x"
+        }, 
+        {
+            "spotName": "输出分路有功功率", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.441.x"
+        }, 
+        {
+            "spotName": "输出分路无功功率", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.442.x"
+        }, 
+        {
+            "spotName": "输出分路视在功率", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.443.x"
+        }, 
+        {
+            "spotName": "输出分路功率因素", 
+            "precision": "0.01", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.444.x"
+        }, 
+        {
+            "spotName": "输出分路正向有功电能", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "kWh", 
+            "id": "1.445.x"
+        }, 
+        {
+            "spotName": "输出分路正向无功电能", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "kvarh", 
+            "id": "1.446.x"
+        }, 
+        {
+            "spotName": "输出分路负载率", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.447.x"
+        }, 
+        {
+            "spotName": "输出分路电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.448.x"
+        }, 
+        {
+            "spotName": "输出分路0次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.449.x"
+        }, 
+        {
+            "spotName": "输出分路1次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.450.x"
+        }, 
+        {
+            "spotName": "输出分路2次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.451.x"
+        }, 
+        {
+            "spotName": "输出分路3次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.452.x"
+        }, 
+        {
+            "spotName": "输出分路4次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.453.x"
+        }, 
+        {
+            "spotName": "输出分路5次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.454.x"
+        }, 
+        {
+            "spotName": "输出分路6次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.455.x"
+        }, 
+        {
+            "spotName": "输出分路7次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.456.x"
+        }, 
+        {
+            "spotName": "输出分路8次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.457.x"
+        }, 
+        {
+            "spotName": "输出分路9次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.458.x"
+        }, 
+        {
+            "spotName": "输出分路10次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.459.x"
+        }, 
+        {
+            "spotName": "输出分路11次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.460.x"
+        }, 
+        {
+            "spotName": "输出分路12次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.461.x"
+        }, 
+        {
+            "spotName": "输出分路13次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.462.x"
+        }, 
+        {
+            "spotName": "输出分路14次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.463.x"
+        }, 
+        {
+            "spotName": "输出分路15次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.464.x"
+        }, 
+        {
+            "spotName": "输出分路16次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.465.x"
+        }, 
+        {
+            "spotName": "输出分路17次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.466.x"
+        }, 
+        {
+            "spotName": "输出分路18次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.467.x"
+        }, 
+        {
+            "spotName": "输出分路19次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.468.x"
+        }, 
+        {
+            "spotName": "输出分路20次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.469.x"
+        }, 
+        {
+            "spotName": "输出分路21次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.470.x"
+        }, 
+        {
+            "spotName": "输出分路22次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.471.x"
+        }, 
+        {
+            "spotName": "输出分路23次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.472.x"
+        }, 
+        {
+            "spotName": "输出分路24次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.473.x"
+        }, 
+        {
+            "spotName": "输出分路25次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.474.x"
+        }, 
+        {
+            "spotName": "输出分路26次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.475.x"
+        }, 
+        {
+            "spotName": "输出分路27次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.476.x"
+        }, 
+        {
+            "spotName": "输出分路28次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.477.x"
+        }, 
+        {
+            "spotName": "输出分路29次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.478.x"
+        }, 
+        {
+            "spotName": "输出分路30次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.479.x"
+        }, 
+        {
+            "spotName": "输出分路31次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.480.x"
+        }, 
+        {
+            "spotName": "输出分路32次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.481.x"
+        }, 
+        {
+            "spotName": "输出分路33次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.482.x"
+        }, 
+        {
+            "spotName": "输出分路34次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.483.x"
+        }, 
+        {
+            "spotName": "输出分路35次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.484.x"
+        }, 
+        {
+            "spotName": "输出分路36次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.485.x"
+        }, 
+        {
+            "spotName": "输出分路37次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.486.x"
+        }, 
+        {
+            "spotName": "输出分路38次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.487.x"
+        }, 
+        {
+            "spotName": "输出分路39次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.488.x"
+        }, 
+        {
+            "spotName": "输出分路40次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.489.x"
+        }, 
+        {
+            "spotName": "输出分路41次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.490.x"
+        }, 
+        {
+            "spotName": "输出分路42次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.491.x"
+        }, 
+        {
+            "spotName": "输出分路43次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.492.x"
+        }, 
+        {
+            "spotName": "输出分路44次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.493.x"
+        }, 
+        {
+            "spotName": "输出分路45次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.494.x"
+        }, 
+        {
+            "spotName": "输出分路46次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.495.x"
+        }, 
+        {
+            "spotName": "输出分路47次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.496.x"
+        }, 
+        {
+            "spotName": "输出分路48次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.497.x"
+        }, 
+        {
+            "spotName": "输出分路49次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.498.x"
+        }, 
+        {
+            "spotName": "输出分路50次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.499.x"
+        }, 
+        {
+            "spotName": "输出分路51次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.500.x"
+        }, 
+        {
+            "spotName": "输出分路52次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.501.x"
+        }, 
+        {
+            "spotName": "输出分路53次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.502.x"
+        }, 
+        {
+            "spotName": "输出分路54次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.503.x"
+        }, 
+        {
+            "spotName": "输出分路55次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.504.x"
+        }, 
+        {
+            "spotName": "输出分路56次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.505.x"
+        }, 
+        {
+            "spotName": "输出分路57次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.506.x"
+        }, 
+        {
+            "spotName": "输出分路58次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.507.x"
+        }, 
+        {
+            "spotName": "输出分路59次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.508.x"
+        }, 
+        {
+            "spotName": "输出分路60次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.509.x"
+        }, 
+        {
+            "spotName": "输出分路61次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.510.x"
+        }, 
+        {
+            "spotName": "输出分路62次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.511.x"
+        }, 
+        {
+            "spotName": "输出分路63次电流谐波百分比", 
+            "precision": "0.1", 
+            "groups": "支路x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.512.x"
+        }, 
+        {
+            "spotName": "输入路数", 
+            "precision": "1.0", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "PCS", 
+            "id": "1.513.x"
+        }, 
+        {
+            "spotName": "输出分路路数", 
+            "precision": "1.0", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "PCS", 
+            "id": "1.514.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "0=闭合；1=断开", 
+            "unit": "None", 
+            "id": "2.1.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.2.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.3.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.4.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.5.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.6.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.7.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.8.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.9.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "支路x", 
+            "mapper": "0=闭合；1=断开", 
+            "unit": "None", 
+            "id": "2.10.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "支路x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.11.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "支路x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.12.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "支路x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.13.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "支路x", 
+            "mapper": "0=正常；1=告警", 
+            "unit": "None", 
+            "id": "2.14.x"
+        }, 
+        {
+            "spotName": "输入线电压Uab过压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "输入线电压Uab欠压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "输入线电压Ubc过压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "输入线电压Ubc欠压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "输入线电压Uac过压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.3.x"
+        }, 
+        {
+            "spotName": "输入线电压Uac欠压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.3.x"
+        }, 
+        {
+            "spotName": "输入相电压Ua过压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.4.x"
+        }, 
+        {
+            "spotName": "输入相电压Ua欠压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.4.x"
+        }, 
+        {
+            "spotName": "输入相电压Ub过压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.5.x"
+        }, 
+        {
+            "spotName": "输入相电压Ub欠压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.5.x"
+        }, 
+        {
+            "spotName": "输入相电压Uc过压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.6.x"
+        }, 
+        {
+            "spotName": "输入相电压Uc欠压告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.6.x"
+        }, 
+        {
+            "spotName": "输入零地电压超限告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.7.x"
+        }, 
+        {
+            "spotName": "输入相电流Ia过流告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.10.x"
+        }, 
+        {
+            "spotName": "输入相电流Ib过流告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.11.x"
+        }, 
+        {
+            "spotName": "输入相电流Ic过流告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.12.x"
+        }, 
+        {
+            "spotName": "输入频率过高告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.20.x"
+        }, 
+        {
+            "spotName": "输入频率过低告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.20.x"
+        }, 
+        {
+            "spotName": "温度超限报警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.430.x"
+        }, 
+        {
+            "spotName": "湿度超限报警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.431.x"
+        }, 
+        {
+            "spotName": "输入开关断开告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.1.x"
+        }, 
+        {
+            "spotName": "输入相电压Ua缺相告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.2.x"
+        }, 
+        {
+            "spotName": "输入相电压Ub缺相告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.3.x"
+        }, 
+        {
+            "spotName": "输入相电压Uc缺相告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.4.x"
+        }, 
+        {
+            "spotName": "输入漏电流超限告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.5.x"
+        }, 
+        {
+            "spotName": "输入N线电流超低阈值告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.6.x"
+        }, 
+        {
+            "spotName": "输入N线电流超高阈值告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.7.x"
+        }, 
+        {
+            "spotName": "输入N线电流过流告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.8.x"
+        }, 
+        {
+            "spotName": "输入N线电流冲击过流告警", 
+            "precision": "", 
+            "groups": "输入x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.9.x"
+        }, 
+        {
+            "spotName": "输出分路开关断开告警", 
+            "precision": "", 
+            "groups": "支路x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.10.x"
+        }, 
+        {
+            "spotName": "输出分路电流超低阈值告警", 
+            "precision": "", 
+            "groups": "支路x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.11.x"
+        }, 
+        {
+            "spotName": "输出分路电流超高阈值告警", 
+            "precision": "", 
+            "groups": "支路x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.12.x"
+        }, 
+        {
+            "spotName": "输出分路过流告警", 
+            "precision": "", 
+            "groups": "支路x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.13.x"
+        }, 
+        {
+            "spotName": "输出分路冲击过流告警", 
+            "precision": "", 
+            "groups": "支路x", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.14.x"
+        }, 
+        {
+            "spotName": "厂家名称", 
+            "precision": "", 
+            "groups": "资产", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "5.1.0"
+        }, 
+        {
+            "spotName": "产品型号", 
+            "precision": "", 
+            "groups": "资产", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "5.2.0"
+        }
+    ]
+}

@@ -1,0 +1,350 @@
+{
+    "table_head": [
+        {
+            "value": "标准ID", 
+            "key": "id"
+        }, 
+        {
+            "value": "测点名称", 
+            "key": "spotName"
+        }, 
+        {
+            "value": "单位", 
+            "key": "unit"
+        }, 
+        {
+            "value": "状态描述", 
+            "key": "mapper"
+        }, 
+        {
+            "value": "精度", 
+            "key": "precision"
+        }, 
+        {
+            "value": "分组", 
+            "key": "groups"
+        }
+    ], 
+    "table_info": [
+        {
+            "spotName": "CPU{x}占用率", 
+            "precision": "0.01", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "CPU{x}当前频率", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "Hz", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "CPU主频", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "Hz", 
+            "id": "1.3.0"
+        }, 
+        {
+            "spotName": "内存容量", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.4.0"
+        }, 
+        {
+            "spotName": "内存剩余容量", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.5.0"
+        }, 
+        {
+            "spotName": "内存剩余百分比", 
+            "precision": "0.01", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.6.0"
+        }, 
+        {
+            "spotName": "内存缓冲大小", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.7.0"
+        }, 
+        {
+            "spotName": "内存缓存大小", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.8.0"
+        }, 
+        {
+            "spotName": "存储总容量", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.9.0"
+        }, 
+        {
+            "spotName": "存储剩余容量", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.10.0"
+        }, 
+        {
+            "spotName": "存储剩余百分比", 
+            "precision": "0.01", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.11.0"
+        }, 
+        {
+            "spotName": "系统分区容量", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.12.0"
+        }, 
+        {
+            "spotName": "系统分区剩余容量", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.13.0"
+        }, 
+        {
+            "spotName": "系统分区剩余百分比", 
+            "precision": "0.01", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.14.0"
+        }, 
+        {
+            "spotName": "数据分区容量", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.15.0"
+        }, 
+        {
+            "spotName": "数据分区剩余容量", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.16.0"
+        }, 
+        {
+            "spotName": "数据分区剩余百分比", 
+            "precision": "0.01", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.17.0"
+        }, 
+        {
+            "spotName": "日志分区容量", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.18.0"
+        }, 
+        {
+            "spotName": "日志分区剩余容量", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.19.0"
+        }, 
+        {
+            "spotName": "日志分区剩余百分比", 
+            "precision": "0.01", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.20.0"
+        }, 
+        {
+            "spotName": "数据读取速度", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "B/s", 
+            "id": "1.21.0"
+        }, 
+        {
+            "spotName": "数据写入速度", 
+            "precision": "1.0", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "B/s", 
+            "id": "1.22.0"
+        }, 
+        {
+            "spotName": "网络接口{x}地址", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.23.x"
+        }, 
+        {
+            "spotName": "网络接口{x}发送速度", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "Kbit/s", 
+            "id": "1.24.x"
+        }, 
+        {
+            "spotName": "网络接口{x}接收速度", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "Kbit/s", 
+            "id": "1.25.x"
+        }, 
+        {
+            "spotName": "进程{x}名称", 
+            "precision": "", 
+            "groups": "进程x", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.26.x"
+        }, 
+        {
+            "spotName": "进程{x}PID", 
+            "precision": "1.0", 
+            "groups": "进程x", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.27.x"
+        }, 
+        {
+            "spotName": "进程{x}CPU占用率", 
+            "precision": "0.01", 
+            "groups": "进程x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.28.x"
+        }, 
+        {
+            "spotName": "进程{x}内存占用率", 
+            "precision": "0.01", 
+            "groups": "进程x", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.29.x"
+        }, 
+        {
+            "spotName": "进程{x}内存占用大小", 
+            "precision": "1.0", 
+            "groups": "进程x", 
+            "mapper": "", 
+            "unit": "MB", 
+            "id": "1.30.x"
+        }, 
+        {
+            "spotName": "进程{x}文件读取速度", 
+            "precision": "1.0", 
+            "groups": "进程x", 
+            "mapper": "", 
+            "unit": "B/s", 
+            "id": "1.31.x"
+        }, 
+        {
+            "spotName": "进程{x}文件写入速度", 
+            "precision": "1.0", 
+            "groups": "进程x", 
+            "mapper": "", 
+            "unit": "B/s", 
+            "id": "1.32.x"
+        }, 
+        {
+            "spotName": "CPU{x}占用率过高告警y", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "内存剩余容量过低高警y", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.6"
+        }, 
+        {
+            "spotName": "总存储剩余容量过低高警y", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.11"
+        }, 
+        {
+            "spotName": "系统分区剩余容量过低高警y", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.14"
+        }, 
+        {
+            "spotName": "数据分区剩余容量过低高警y", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.17"
+        }, 
+        {
+            "spotName": "日志分区剩余容量过低高警y", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.20"
+        }, 
+        {
+            "spotName": "进程{x}CPU占用率过高告警y", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.28.x"
+        }, 
+        {
+            "spotName": "进程{x}内存占用率过高告警y", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.29.x"
+        }
+    ]
+}

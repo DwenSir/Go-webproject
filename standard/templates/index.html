@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../static/js/jquery.js"></script>
+</head>
+<style>
+    #form1 {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    #ok {
+        width: 80px;
+        color: #ffffff;
+        background-color: #4ea6ed;
+        border-color: #4ea6ed;
+        height: 30px;
+    }
+</style>
+<body>
+<form id="form1" method="post" enctype="multipart/form-data">
+    <input type="file" id="uploadFile" name="file_name"
+           accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+</form>
+<button id="ok">提交</button>
+</body>
+<script>
+
+    $('#ok').click(function () {
+        $.ajax({
+            url: "/api/upload",
+            type: 'POST',
+            dataType: 'json',
+            cache: false,
+            traditional: true,
+            contentType: false,
+            processData: false,
+            async: true,
+            data: (new FormData($("#form1")[0])),
+            success: function success(json) {
+                alert("导入excel成功");
+            },
+            error: function error(json) {
+                alert("导入excel失败");
+            }
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,1046 @@
+{
+    "table_head": [
+        {
+            "value": "标准ID", 
+            "key": "id"
+        }, 
+        {
+            "value": "测点名称", 
+            "key": "spotName"
+        }, 
+        {
+            "value": "单位", 
+            "key": "unit"
+        }, 
+        {
+            "value": "状态描述", 
+            "key": "mapper"
+        }, 
+        {
+            "value": "精度", 
+            "key": "precision"
+        }, 
+        {
+            "value": "分组", 
+            "key": "groups"
+        }
+    ], 
+    "table_info": [
+        {
+            "spotName": "线电压Uab", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.1.0"
+        }, 
+        {
+            "spotName": "线电压Ubc", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.2.0"
+        }, 
+        {
+            "spotName": "线电压Uac", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.3.0"
+        }, 
+        {
+            "spotName": "相电压Ua", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.4.0"
+        }, 
+        {
+            "spotName": "相电压Ub", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.5.0"
+        }, 
+        {
+            "spotName": "相电压Uc", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.6.0"
+        }, 
+        {
+            "spotName": "相电压", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.7.0"
+        }, 
+        {
+            "spotName": "相电流Ia", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.8.0"
+        }, 
+        {
+            "spotName": "相电流Ib", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.9.0"
+        }, 
+        {
+            "spotName": "相电流Ic", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.10.0"
+        }, 
+        {
+            "spotName": "频率", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "F", 
+            "id": "1.11.0"
+        }, 
+        {
+            "spotName": "总有功功率P", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.12.0"
+        }, 
+        {
+            "spotName": "有功功率Pa", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.13.0"
+        }, 
+        {
+            "spotName": "有功功率Pb", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.14.0"
+        }, 
+        {
+            "spotName": "有功功率Pc", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.15.0"
+        }, 
+        {
+            "spotName": "总无功功率Q", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.16.0"
+        }, 
+        {
+            "spotName": "无功功率Qa", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.17.0"
+        }, 
+        {
+            "spotName": "无功功率Qb", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.18.0"
+        }, 
+        {
+            "spotName": "无功功率Qc", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.19.0"
+        }, 
+        {
+            "spotName": "总视在功率S", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.20.0"
+        }, 
+        {
+            "spotName": "视在功率Sa", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.21.0"
+        }, 
+        {
+            "spotName": "视在功率Sb", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.22.0"
+        }, 
+        {
+            "spotName": "视在功率Sc", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.23.0"
+        }, 
+        {
+            "spotName": "总功率因子PF", 
+            "precision": "0.01", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.24.0"
+        }, 
+        {
+            "spotName": "功率因子PFa", 
+            "precision": "0.01", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.25.0"
+        }, 
+        {
+            "spotName": "功率因子PFb", 
+            "precision": "0.01", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.26.0"
+        }, 
+        {
+            "spotName": "功率因子PFc", 
+            "precision": "0.01", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.27.0"
+        }, 
+        {
+            "spotName": "正向有功电能", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kWh", 
+            "id": "1.34.0"
+        }, 
+        {
+            "spotName": "正向无功电能", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "kvarh", 
+            "id": "1.35.0"
+        }, 
+        {
+            "spotName": "电池电压", 
+            "precision": "0.1", 
+            "groups": "电池", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.37.0"
+        }, 
+        {
+            "spotName": "润滑油油压", 
+            "precision": "0.1", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "kPa", 
+            "id": "1.38.0"
+        }, 
+        {
+            "spotName": "冷却液温度", 
+            "precision": "0.1", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "℃", 
+            "id": "1.39.0"
+        }, 
+        {
+            "spotName": "发动机转速", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "r/min", 
+            "id": "1.40.0"
+        }, 
+        {
+            "spotName": "累计运行时间", 
+            "precision": "0.1", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "h", 
+            "id": "1.41.0"
+        }, 
+        {
+            "spotName": "总起动次数", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "times", 
+            "id": "1.42.0"
+        }, 
+        {
+            "spotName": "起动失败次数", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "times", 
+            "id": "1.43.0"
+        }, 
+        {
+            "spotName": "停机次数", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "times", 
+            "id": "1.44.0"
+        }, 
+        {
+            "spotName": "急停次数", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "times", 
+            "id": "1.45.0"
+        }, 
+        {
+            "spotName": "润滑油油温", 
+            "precision": "0.1", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "℃", 
+            "id": "1.49.0"
+        }, 
+        {
+            "spotName": "燃油油位", 
+            "precision": "0.1", 
+            "groups": "油箱", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.52.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "0=起始；1=候命中；2=未预备；3=预起动；4=起动中1；5=起动间歇；6=起动中2；7=运行中；8=已合闸；9=慢卸载中；10=冷却中1；11=停机1；12=停机2；13=通风中；14=应急手动；15=冷却中2；16=分闸运行；17=慢加载中；18=等待停机；19=加热中；20=停机排空；", 
+            "unit": "None", 
+            "id": "2.4.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.5.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.7.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.8.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.9.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.12.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.13.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.14.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "电池", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.15.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "电池", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.16.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.17.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "0=正常；1=故障", 
+            "unit": "None", 
+            "id": "2.20.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.21.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.22.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.23.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.24.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.25.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.26.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.29.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.30.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "0=正常；1=停机", 
+            "unit": "None", 
+            "id": "2.32.0"
+        }, 
+        {
+            "spotName": "发电机组模式设置", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "3.1.0"
+        }, 
+        {
+            "spotName": "遥控锁定", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "3.3.0"
+        }, 
+        {
+            "spotName": "远程开关机", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "3.5.0"
+        }, 
+        {
+            "spotName": "紧急停机", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "3.6.0"
+        }, 
+        {
+            "spotName": "预起动时间", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "s", 
+            "id": "3.10.0"
+        }, 
+        {
+            "spotName": "预滑油时间", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "s", 
+            "id": "3.11.0"
+        }, 
+        {
+            "spotName": "预润滑间歇", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "min", 
+            "id": "3.12.0"
+        }, 
+        {
+            "spotName": "起动失败间隙", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "s", 
+            "id": "3.14.0"
+        }, 
+        {
+            "spotName": "怠速时间", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "s", 
+            "id": "3.16.0"
+        }, 
+        {
+            "spotName": "冷却时间", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "s", 
+            "id": "3.22.0"
+        }, 
+        {
+            "spotName": "停机输出时间", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "s", 
+            "id": "3.27.0"
+        }, 
+        {
+            "spotName": "燃料阀", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "3.29.0"
+        }, 
+        {
+            "spotName": "线电压Uab过压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.0"
+        }, 
+        {
+            "spotName": "线电压Uab欠压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.0"
+        }, 
+        {
+            "spotName": "线电压Ubc过压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.2.0"
+        }, 
+        {
+            "spotName": "线电压Ubc欠压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.2.0"
+        }, 
+        {
+            "spotName": "线电压Uac过压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.3.0"
+        }, 
+        {
+            "spotName": "线电压Uac欠压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.3.0"
+        }, 
+        {
+            "spotName": "相电压Ua过压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.4.0"
+        }, 
+        {
+            "spotName": "相电压Ua欠压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.4.0"
+        }, 
+        {
+            "spotName": "相电压Ub过压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.5.0"
+        }, 
+        {
+            "spotName": "相电压Ub欠压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.5.0"
+        }, 
+        {
+            "spotName": "相电压Uc过压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.6.0"
+        }, 
+        {
+            "spotName": "相电压Uc欠压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.6.0"
+        }, 
+        {
+            "spotName": "相电压过压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.7.0"
+        }, 
+        {
+            "spotName": "相电压欠压告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.7.0"
+        }, 
+        {
+            "spotName": "频率过高告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.12.0"
+        }, 
+        {
+            "spotName": "频率过低告警y", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.12.0"
+        }, 
+        {
+            "spotName": "电池电压过压告警y", 
+            "precision": "", 
+            "groups": "电池", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.37.0"
+        }, 
+        {
+            "spotName": "电池电压欠压告警y", 
+            "precision": "", 
+            "groups": "电池", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.37.0"
+        }, 
+        {
+            "spotName": "润滑油油压高告警y", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.38.0"
+        }, 
+        {
+            "spotName": "润滑油油压低告警y", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.38.0"
+        }, 
+        {
+            "spotName": "冷却液高温告警y", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.39.0"
+        }, 
+        {
+            "spotName": "冷却液低温告警y", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.39.0"
+        }, 
+        {
+            "spotName": "发动机超速告警y", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.40.0"
+        }, 
+        {
+            "spotName": "润滑油高温告警y", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.49.0"
+        }, 
+        {
+            "spotName": "润滑油低温告警y", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.49.0"
+        }, 
+        {
+            "spotName": "燃油油位低告警y", 
+            "precision": "", 
+            "groups": "油箱", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.52.0"
+        }, 
+        {
+            "spotName": "起动失败停机状态", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.5.0"
+        }, 
+        {
+            "spotName": "发动机超速停机状态", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.7.0"
+        }, 
+        {
+            "spotName": "发动机低速停机状态", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.8.0"
+        }, 
+        {
+            "spotName": "发动机急停状态", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.9.0"
+        }, 
+        {
+            "spotName": "发动机停机失败状态", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.12.0"
+        }, 
+        {
+            "spotName": "冷却液高温停机状态", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.13.0"
+        }, 
+        {
+            "spotName": "冷却液低温停机状态", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.14.0"
+        }, 
+        {
+            "spotName": "电池电压高停机状态", 
+            "precision": "", 
+            "groups": "电池", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.15.0"
+        }, 
+        {
+            "spotName": "电池电压低停机状态", 
+            "precision": "", 
+            "groups": "电池", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.16.0"
+        }, 
+        {
+            "spotName": "润滑油压低停机状态", 
+            "precision": "", 
+            "groups": "发动机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.17.0"
+        }, 
+        {
+            "spotName": "充电器故障状态", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.20.0"
+        }, 
+        {
+            "spotName": "相电压Ua高停机状态", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.21.0"
+        }, 
+        {
+            "spotName": "相电压Ub高停机状态", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.22.0"
+        }, 
+        {
+            "spotName": "相电压Uc高停机状态", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.23.0"
+        }, 
+        {
+            "spotName": "线电压Uab高停机状态", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.24.0"
+        }, 
+        {
+            "spotName": "线电压Ubc高停机状态", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.25.0"
+        }, 
+        {
+            "spotName": "线电压Uac高停机状态", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.26.0"
+        }, 
+        {
+            "spotName": "发电机过频率停机状态", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.29.0"
+        }, 
+        {
+            "spotName": "发电机低频率停机状态", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.30.0"
+        }, 
+        {
+            "spotName": "发电机过载停机状态", 
+            "precision": "", 
+            "groups": "发电机", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.32.0"
+        }, 
+        {
+            "spotName": "厂家名称", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "5.1.0"
+        }, 
+        {
+            "spotName": "产品型号", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "5.2.0"
+        }, 
+        {
+            "spotName": "版本号", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "5.3.0"
+        }, 
+        {
+            "spotName": "机组名称", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "5.4.0"
+        }, 
+        {
+            "spotName": "额定功率", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "KVA", 
+            "id": "5.5.0"
+        }, 
+        {
+            "spotName": "额定电流", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "5.6.0"
+        }, 
+        {
+            "spotName": "额定频率", 
+            "precision": "0.1", 
+            "groups": "发电机", 
+            "mapper": "", 
+            "unit": "Hz", 
+            "id": "5.7.0"
+        }, 
+        {
+            "spotName": "额定转速", 
+            "precision": "1.0", 
+            "groups": "发动机", 
+            "mapper": "", 
+            "unit": "r/min", 
+            "id": "5.12.0"
+        }
+    ]
+}

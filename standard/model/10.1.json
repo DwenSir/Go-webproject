@@ -1,0 +1,70 @@
+{
+    "table_head": [
+        {
+            "value": "标准ID", 
+            "key": "id"
+        }, 
+        {
+            "value": "测点名称", 
+            "key": "spotName"
+        }, 
+        {
+            "value": "单位", 
+            "key": "unit"
+        }, 
+        {
+            "value": "状态描述", 
+            "key": "mapper"
+        }, 
+        {
+            "value": "精度", 
+            "key": "precision"
+        }, 
+        {
+            "value": "分组", 
+            "key": "groups"
+        }
+    ], 
+    "table_info": [
+        {
+            "spotName": "电缆总长度", 
+            "precision": "1.0", 
+            "groups": "漏水检测", 
+            "mapper": "", 
+            "unit": "m", 
+            "id": "1.1.0"
+        }, 
+        {
+            "spotName": "漏水距离", 
+            "precision": "1.0", 
+            "groups": "漏水检测", 
+            "mapper": "", 
+            "unit": "m", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "厂家名称", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.8.x"
+        }, 
+        {
+            "spotName": "产品型号", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.9.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "漏水检测", 
+            "mapper": "0=正常；1=断线；2=漏水；3=维护", 
+            "unit": "None", 
+            "id": "2.2.0"
+        }
+    ]
+}

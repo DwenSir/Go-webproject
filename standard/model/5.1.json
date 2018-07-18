@@ -1,0 +1,126 @@
+{
+    "table_head": [
+        {
+            "value": "标准ID", 
+            "key": "id"
+        }, 
+        {
+            "value": "测点名称", 
+            "key": "spotName"
+        }, 
+        {
+            "value": "单位", 
+            "key": "unit"
+        }, 
+        {
+            "value": "状态描述", 
+            "key": "mapper"
+        }, 
+        {
+            "value": "精度", 
+            "key": "precision"
+        }, 
+        {
+            "value": "分组", 
+            "key": "groups"
+        }
+    ], 
+    "table_info": [
+        {
+            "spotName": "A相温度", 
+            "precision": "0.1", 
+            "groups": "温度", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.1.0"
+        }, 
+        {
+            "spotName": "B相温度", 
+            "precision": "0.1", 
+            "groups": "温度", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.2.0"
+        }, 
+        {
+            "spotName": "C相温度", 
+            "precision": "0.1", 
+            "groups": "温度", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.3.0"
+        }, 
+        {
+            "spotName": "历史最大温度", 
+            "precision": "0.1", 
+            "groups": "温度", 
+            "mapper": "", 
+            "unit": "%", 
+            "id": "1.4.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "0=开启；1=关闭", 
+            "unit": "None", 
+            "id": "2.1.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "0=正常；1=故障", 
+            "unit": "None", 
+            "id": "2.2.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "0=正常；1=跳闸", 
+            "unit": "None", 
+            "id": "2.3.0"
+        }, 
+        {
+            "spotName": "A相温度过高告警y", 
+            "precision": "", 
+            "groups": "温度", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.0"
+        }, 
+        {
+            "spotName": "B相温度过高告警y", 
+            "precision": "", 
+            "groups": "温度", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.2.0"
+        }, 
+        {
+            "spotName": "C相温度过高告警y", 
+            "precision": "", 
+            "groups": "温度", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.3.0"
+        }, 
+        {
+            "spotName": "故障告警", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.2.0"
+        }, 
+        {
+            "spotName": "跳闸告警", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.3.0"
+        }
+    ]
+}

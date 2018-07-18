@@ -1,0 +1,454 @@
+{
+    "table_head": [
+        {
+            "value": "标准ID", 
+            "key": "id"
+        }, 
+        {
+            "value": "测点名称", 
+            "key": "spotName"
+        }, 
+        {
+            "value": "单位", 
+            "key": "unit"
+        }, 
+        {
+            "value": "状态描述", 
+            "key": "mapper"
+        }, 
+        {
+            "value": "精度", 
+            "key": "precision"
+        }, 
+        {
+            "value": "分组", 
+            "key": "groups"
+        }
+    ], 
+    "table_info": [
+        {
+            "spotName": "第{x}路交流配电输入相电压Ua", 
+            "precision": "0.01", 
+            "groups": "交流屏", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入相电压Ub", 
+            "precision": "0.01", 
+            "groups": "交流屏", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入相电压Uc", 
+            "precision": "0.01", 
+            "groups": "交流屏", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.3.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入频率", 
+            "precision": "0.01", 
+            "groups": "交流屏", 
+            "mapper": "", 
+            "unit": "Hz", 
+            "id": "1.4.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输出电流Ia", 
+            "precision": "0.01", 
+            "groups": "交流屏", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.5.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输出电流Ib", 
+            "precision": "0.01", 
+            "groups": "交流屏", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.6.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输出电流Ic", 
+            "precision": "0.01", 
+            "groups": "交流屏", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.7.x"
+        }, 
+        {
+            "spotName": "整流器输出电压", 
+            "precision": "0.01", 
+            "groups": "整流屏", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.8.0"
+        }, 
+        {
+            "spotName": "第{x}路整流模块输出电流", 
+            "precision": "0.01", 
+            "groups": "整流屏", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.9.x"
+        }, 
+        {
+            "spotName": "直流输出电压", 
+            "precision": "0.01", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.10.0"
+        }, 
+        {
+            "spotName": "总负载电流", 
+            "precision": "0.01", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.11.0"
+        }, 
+        {
+            "spotName": "第{x}组蓄电池电流", 
+            "precision": "0.01", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.12.x"
+        }, 
+        {
+            "spotName": "第{x}组蓄电池温度", 
+            "precision": "0.1", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "℃", 
+            "id": "1.13.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "0=闭合；1=断开；", 
+            "unit": "None", 
+            "id": "2.1.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "0=闭合；1=断开；", 
+            "unit": "None", 
+            "id": "2.2.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "整流屏", 
+            "mapper": "0=关机；1=开机", 
+            "unit": "None", 
+            "id": "2.3.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "整流屏", 
+            "mapper": "0=限流；1=不限流", 
+            "unit": "None", 
+            "id": "2.4.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "整流屏", 
+            "mapper": "0=浮充；1=均充；2=测试；", 
+            "unit": "None", 
+            "id": "2.5.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "0=浮充；1=均充；2=测试；", 
+            "unit": "None", 
+            "id": "2.6.x"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "0=正常；1=下电", 
+            "unit": "None", 
+            "id": "2.7.0"
+        }, 
+        {
+            "spotName": "None", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "0=正常；1=下电", 
+            "unit": "None", 
+            "id": "2.8.0"
+        }, 
+        {
+            "spotName": "限流点", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "C", 
+            "id": "3.1.0"
+        }, 
+        {
+            "spotName": "均充电压", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "3.2.0"
+        }, 
+        {
+            "spotName": "浮充电压", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "3.3.0"
+        }, 
+        {
+            "spotName": "测试电压", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "3.4.0"
+        }, 
+        {
+            "spotName": "一次下电电压", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "3.5.0"
+        }, 
+        {
+            "spotName": "二次下电电压", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "3.6.0"
+        }, 
+        {
+            "spotName": "充电时间", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "h", 
+            "id": "3.7.0"
+        }, 
+        {
+            "spotName": "充电周期", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "M", 
+            "id": "3.8.0"
+        }, 
+        {
+            "spotName": "温度补偿系数", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "", 
+            "unit": "mV/℃/Cell", 
+            "id": "3.9.0"
+        }, 
+        {
+            "spotName": "第{x}路整流模块控制", 
+            "precision": "", 
+            "groups": "整流屏", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "3.10.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入相电压Ua过压告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入相电压Ua欠压告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入相电压Ub过压告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入相电压Ub欠压告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入相电压Uc过压告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.3.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入相电压Uc欠压告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.3.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入频率过高告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.4.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输入频率过低告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.4.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输出电流Ia过高告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.5.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输出电流Ib过高告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.6.x"
+        }, 
+        {
+            "spotName": "第{x}路交流配电输出电流Ic过高告警y", 
+            "precision": "", 
+            "groups": "交流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.7.x"
+        }, 
+        {
+            "spotName": "整流器输出电压过压告警y", 
+            "precision": "", 
+            "groups": "整流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.8.0"
+        }, 
+        {
+            "spotName": "整流器输出电压欠压告警y", 
+            "precision": "", 
+            "groups": "整流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.8.0"
+        }, 
+        {
+            "spotName": "直流输出电压过压告警y", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.10.0"
+        }, 
+        {
+            "spotName": "第{x}组蓄电池温度过高告警y", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.13.x"
+        }, 
+        {
+            "spotName": "第{x}组蓄电池温度过低告警y", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.13.x"
+        }, 
+        {
+            "spotName": "第{x}路整流模块限流告警y", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.4.x"
+        }, 
+        {
+            "spotName": "一次下电告警y", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.7.0"
+        }, 
+        {
+            "spotName": "二次下电告警y", 
+            "precision": "", 
+            "groups": "直流屏", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "2.8.0"
+        }, 
+        {
+            "spotName": "厂家名称", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "5.1.0"
+        }, 
+        {
+            "spotName": "产品型号", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "5.2.0"
+        }, 
+        {
+            "spotName": "版本号", 
+            "precision": "", 
+            "groups": "系统", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "5.3.0"
+        }
+    ]
+}

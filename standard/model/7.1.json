@@ -1,0 +1,126 @@
+{
+    "table_head": [
+        {
+            "value": "标准ID", 
+            "key": "id"
+        }, 
+        {
+            "value": "测点名称", 
+            "key": "spotName"
+        }, 
+        {
+            "value": "单位", 
+            "key": "unit"
+        }, 
+        {
+            "value": "状态描述", 
+            "key": "mapper"
+        }, 
+        {
+            "value": "精度", 
+            "key": "precision"
+        }, 
+        {
+            "value": "分组", 
+            "key": "groups"
+        }
+    ], 
+    "table_info": [
+        {
+            "spotName": "第{x}路相电压", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.7.x"
+        }, 
+        {
+            "spotName": "第{x}路相电流", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.12.x"
+        }, 
+        {
+            "spotName": "第{x}路频率", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "F", 
+            "id": "1.13.x"
+        }, 
+        {
+            "spotName": "第{x}路总有功功率P", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.14.x"
+        }, 
+        {
+            "spotName": "第{x}路有功电能", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kWh", 
+            "id": "1.30.x"
+        }, 
+        {
+            "spotName": "厂家名称", 
+            "precision": "", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.32.0"
+        }, 
+        {
+            "spotName": "产品型号", 
+            "precision": "", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.33.0"
+        }, 
+        {
+            "spotName": "版本号", 
+            "precision": "", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.34.0"
+        }, 
+        {
+            "spotName": "第{x}路相电压过压告警y", 
+            "precision": "", 
+            "groups": "", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.7.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压欠压告警y", 
+            "precision": "", 
+            "groups": "", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.7.x"
+        }, 
+        {
+            "spotName": "第{x}路频率过高告警y", 
+            "precision": "", 
+            "groups": "", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.13.x"
+        }, 
+        {
+            "spotName": "第{x}路频率过低告警y", 
+            "precision": "", 
+            "groups": "", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.13.x"
+        }
+    ]
+}

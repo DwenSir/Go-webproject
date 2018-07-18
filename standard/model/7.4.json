@@ -1,0 +1,430 @@
+{
+    "table_head": [
+        {
+            "value": "标准ID", 
+            "key": "id"
+        }, 
+        {
+            "value": "测点名称", 
+            "key": "spotName"
+        }, 
+        {
+            "value": "单位", 
+            "key": "unit"
+        }, 
+        {
+            "value": "状态描述", 
+            "key": "mapper"
+        }, 
+        {
+            "value": "精度", 
+            "key": "precision"
+        }, 
+        {
+            "value": "分组", 
+            "key": "groups"
+        }
+    ], 
+    "table_info": [
+        {
+            "spotName": "第{x}路线电压Uab", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "第{x}路线电压Ubc", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "第{x}路线电压Uac", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.3.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压Ua", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.4.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压Ub", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.5.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压Uc", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.6.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "V", 
+            "id": "1.7.x"
+        }, 
+        {
+            "spotName": "第{x}路相电流Ia", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.8.x"
+        }, 
+        {
+            "spotName": "第{x}路相电流Ib", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.9.x"
+        }, 
+        {
+            "spotName": "第{x}路相电流Ic", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.10.x"
+        }, 
+        {
+            "spotName": "第{x}路相电流Io", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.11.x"
+        }, 
+        {
+            "spotName": "第{x}路相电流", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "A", 
+            "id": "1.12.x"
+        }, 
+        {
+            "spotName": "第{x}路频率", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "F", 
+            "id": "1.13.x"
+        }, 
+        {
+            "spotName": "第{x}路总有功功率P", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.14.x"
+        }, 
+        {
+            "spotName": "第{x}路有功功率Pa", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.15.x"
+        }, 
+        {
+            "spotName": "第{x}路有功功率Pb", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.16.x"
+        }, 
+        {
+            "spotName": "第{x}路有功功率Pc", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kW", 
+            "id": "1.17.x"
+        }, 
+        {
+            "spotName": "第{x}路总无功功率Q", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.18.x"
+        }, 
+        {
+            "spotName": "第{x}路无功功率Qa", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.19.x"
+        }, 
+        {
+            "spotName": "第{x}路无功功率Qb", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.20.x"
+        }, 
+        {
+            "spotName": "第{x}路无功功率Qc", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kvar", 
+            "id": "1.21.x"
+        }, 
+        {
+            "spotName": "第{x}路总视在功率S", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.22.x"
+        }, 
+        {
+            "spotName": "第{x}路视在功率Sa", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.23.x"
+        }, 
+        {
+            "spotName": "第{x}路视在功率Sb", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.24.x"
+        }, 
+        {
+            "spotName": "第{x}路视在功率Sc", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kVA", 
+            "id": "1.25.x"
+        }, 
+        {
+            "spotName": "第{x}路总功率因子PF", 
+            "precision": "0.01", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.26.x"
+        }, 
+        {
+            "spotName": "第{x}路功率因子PFa", 
+            "precision": "0.01", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.27.x"
+        }, 
+        {
+            "spotName": "第{x}路功率因子PFb", 
+            "precision": "0.01", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.28.x"
+        }, 
+        {
+            "spotName": "第{x}路功率因子PFc", 
+            "precision": "0.01", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "η", 
+            "id": "1.29.x"
+        }, 
+        {
+            "spotName": "第{x}路有功电能", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kWh", 
+            "id": "1.30.x"
+        }, 
+        {
+            "spotName": "第{x}路无功电能", 
+            "precision": "0.1", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "kvarh", 
+            "id": "1.31.x"
+        }, 
+        {
+            "spotName": "厂家名称", 
+            "precision": "", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.32.0"
+        }, 
+        {
+            "spotName": "产品型号", 
+            "precision": "", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.33.0"
+        }, 
+        {
+            "spotName": "版本号", 
+            "precision": "", 
+            "groups": "", 
+            "mapper": "", 
+            "unit": "", 
+            "id": "1.34.0"
+        }, 
+        {
+            "spotName": "第{x}路线电压Uab过压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "第{x}路线电压Uab欠压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.1.x"
+        }, 
+        {
+            "spotName": "第{x}路线电压Ubc过压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "第{x}路线电压Ubc欠压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.2.x"
+        }, 
+        {
+            "spotName": "第{x}路线电压Uac过压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.3.x"
+        }, 
+        {
+            "spotName": "第{x}路线电压Uac欠压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.3.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压Ua过压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.4.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压Ua欠压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.4.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压Ub过压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.5.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压Ub欠压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.5.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压Uc过压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.6.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压Uc欠压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.6.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压过压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.7.x"
+        }, 
+        {
+            "spotName": "第{x}路相电压欠压告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.7.x"
+        }, 
+        {
+            "spotName": "第{x}路频率过高告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.13.x"
+        }, 
+        {
+            "spotName": "第{x}路频率过低告警y", 
+            "precision": "", 
+            "groups": "输入", 
+            "mapper": "None", 
+            "unit": "None", 
+            "id": "1.13.x"
+        }
+    ]
+}
