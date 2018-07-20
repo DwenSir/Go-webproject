@@ -71,34 +71,40 @@ func Pro(xlsx *xlsx.File)map[string]interface{}{
   readInfo := xlsx.Sheets[1]
   redata := &REDATA{}
   for index,value := range readInfo.Rows{
-    reInfo := map[string]string{
-      "number": value.Sheet.Cell(index+1,0).Value,
-      "spotName": value.Sheet.Cell(index+1,1).Value,
-      "standardName": "",
-      "status": "",
-      "unit": "",
-      "rw":"0",
-      "mapper": "",
-      "precision": "",
-      "id": "",
+    if index != 0{
+      if value.Sheet.Cell(index,1).Value == ""{continue}
+      reInfo := map[string]string{
+        "number": value.Sheet.Cell(index,0).Value,
+        "spotName": value.Sheet.Cell(index,1).Value,
+        "standardName": "",
+        "status": "",
+        "unit": "",
+        "rw":"0",
+        "mapper": "",
+        "precision": "",
+        "id": "",
+      }
+      redata.TableInfo = append(redata.TableInfo,reInfo)
     }
-    redata.TableInfo = append(redata.TableInfo,reInfo)
   }
   //  write table
   writeinfo := xlsx.Sheets[2]
   for count,data := range writeinfo.Rows{
-    reInfo := map[string]string{
-      "number": data.Sheet.Cell(count+1,0).Value,
-      "spotName": data.Sheet.Cell(count+1,1).Value,
-      "standardName": "",
-      "status": "0",
-      "unit": "",
-      "rw":"1",
-      "mapper": "",
-      "precision": "",
-      "id": "",
+    if count != 0 {
+      if data.Sheet.Cell(count,1).Value == ""{continue}
+      reInfo := map[string]string{
+        "number": data.Sheet.Cell(count,0).Value,
+        "spotName": data.Sheet.Cell(count,1).Value,
+        "standardName": "",
+        "status": "0",
+        "unit": "",
+        "rw":"1",
+        "mapper": "",
+        "precision": "",
+        "id": "",
+      }
+      redata.TableInfo = append(redata.TableInfo,reInfo)
     }
-    redata.TableInfo = append(redata.TableInfo,reInfo)
   }
 //  table head
   head := []map[string]string{

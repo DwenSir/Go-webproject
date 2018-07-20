@@ -47,7 +47,7 @@ func GetIdInfo(modelPath string,fileName string) string{
   if err != nil {fmt.Println(err)}
   if err := json.Unmarshal(b, standardTable); err != nil {fmt.Println(err)}
   dict := standardTable.TableInfo
-  for i:=0;i<len(standardTable.TableInfo);i++{
+  for i:= 0;i<len(standardTable.TableInfo);i++{
     if MoName, ok := dict[i]["MoName"].(string); ok {
       if ids, ok := dict[i]["ID"]; ok{
         if fileName == MoName{

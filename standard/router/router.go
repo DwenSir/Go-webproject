@@ -17,7 +17,10 @@ func Init(){
 	apis := routes.Group( "/api")
 	apis.GET( "/init", controller.GetModelController) /*初始化上传数据*/
 	apis.POST( "/upload", controller.GetExcelController) /*导入excel*/
+	apis.POST( "/binbing", controller.BindingInfo) /*快速绑定*/
+	apis.POST( "/save", controller.ToExcel)
 	apis.GET( "/introduce", controller.IntroduceModelController) /*上传标准化模板数据*/
+
 	routes.NoRoute(func(c *gin.Context) { c.JSON(http.StatusNotFound, gin.H{
 		"status": 404,
 		"error": "404, page not exists!", })})

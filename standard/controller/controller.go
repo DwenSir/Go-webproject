@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"io"
 	"standard/pkg/pathJoin"
+	"encoding/json"
 )
 //TODO:控制器 确定执行逻辑和返回对应的数据
-
 
 func InitController(c *gin.Context)  {
 	c.HTML(http.StatusOK, "index.html", gin.H{ "title": "standardizationTools",})
@@ -65,4 +65,42 @@ func IntroduceModelController(c *gin.Context){
 	name := c.Query("file_name")
 	data := introduceModel.GetModelInfo(name)
 	c.JSON(http.StatusOK,data)
+}
+
+
+type s_data struct {
+	Url       string   `json:"url" binding:"required"`
+	Imgs      []string `json:"imgs"`
+	Title     string   `json:"title" binding:"required"`
+}
+
+//TODO:快速绑定
+func BindingInfo(c *gin.Context)  {
+	var p s_data
+	if c.BindJSON(&p) == nil {
+		project := c.Param("project")
+		taskid := c.Param("taskid")
+		c.JSON(http.StatusOK, gin.H{
+			"err_no":    "2001",
+			"message":   "result save successful!",
+			"project":   project,
+			"taskid":    taskid,
+			"title":     p.Title,
+			"data":      func() string {
+				json_str, _ := json.Marshal(p.Imgs)
+				return string(json_str)
+			}(),
+		})
+	} else {
+		c.JSON(http.StatusBadRequest, gin.H{
+			"err_no":     "4001",
+			"message":    "request's params wrong!",
+		})
+	}
+//	binding.Binding()
+}
+
+//TODO:写回excel
+func ToExcel(c *gin.Context)  {
+
 }
